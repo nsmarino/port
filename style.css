@@ -1,0 +1,65 @@
+:root {
+  --main-text-color: #222;
+  --button-color:rgb(209, 194, 175);
+  --main-header-color: #fff;
+  box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(whitesmoke, #9198e5);
+    color: var(--main-text-color);
+    max-width: 600px;
+    font-family: serif;
+}
+
+h1, h2, h3 {
+    font-family: monospace;
+    color: #eee;
+    background-color: var(--main-text-color);
+}
+
+/* Header Styles */
+header, section {
+  border: 1px solid var(--main-text-color);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header li {
+    display: block;
+    padding-right: 1rem;
+}
+
+header li a {
+    color: var(--main-text-color);
+}
+
+header h1 a {
+    color: var(--main-header-color);
+    text-decoration: none;
+}
+
+#pdfTag {
+    font-variant: small-caps;
+}
+
+/* Portfolio */
+
+button {
+    background: none;
+    border: 1px solid var(--main-text-color);
+}
+
+button a {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+/* Breakpoints */

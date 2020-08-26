@@ -1,15 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>n marino</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index | NICHOLASMARINO</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>nicholas marino</h1>
+    <header>
+        <h1><a href="/">Nicholas Marino</a></h1>
+        <p>web design and development</p>
+        <nav class="siteNav"><ul>
+            <li><a href="/">github</a></li>
+            <li><a href="/">sketchbook</a></li>
+            <li><a href="/">email</a></li>
+            <li><a href="/">resume</a><span id="pdfTag"> [pdf]</span></li>
+        </ul></nav>
+    </header>
+    <main>
+<section id="portfolio">
+    <h2>Professional Work</h2>
 
-  <h2>portfolio</h2>
-  <p>...coming soon...</p>
+    <div class="portfolioEntry">
+        <h3>megalith.supply</h3>
+        <p>designer/developer</p>
+        <p>e-commerce site. gatsby frontend, express/apollo backend, integration with stripe for payment handling and printful for automated dropshipping.</p>
+        <button><a href="/">see the code</a></button>
+        <button><a href="/">see the site</a></button>
+    </div>
+
+    <div class="portfolioEntry">
+        <h3>institute of temporal film studies</h3>
+        <p>designer/developer</p>
+        <p>film blog that examines art films scene-by-scene. nextJS frontend that statically renders markdown.</p>
+        <button><a href="/">see the code</a></button>
+        <button><a href="/">see the site</a></button>
+    </div>
+
+    <div class="portfolioEntry">
+        <h3>reed events</h3>
+        <p>designer/developer</p>
+        <p>event scheduler/sign-up for Reed Memorial Library in Carmel, NY. Library staff can schedule events on daily, weekly or monthly schedules; patrons can register and provide contact information. NextJS frontend that uses Pages API to connect to MongoDB.</p>
+        <button><a href="/">see the code</a></button>
+        <button><a href="/">see the site</a></button>
+    </div>
+</section>
+
+<section id="sketchbook">
+  <h2>Sketchbook</h2>
+  <p>a series of one-off experiments and riffs, including studies of interesting components and features i found around the web.</p>
+  <button><a href="/sketchbook.html">see sketches</a></button>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    
+    <div id="skills">
+      <h3>skills</h3>
+      <p>javascript, react, node/express, graphql/apollo, mongoDB, p5js, fluent in spanish</p>
+    </div>
+
+    <div id="educaton">
+      <h3>education</h3>
+      <p>full stack open 2020, university of helsinki, BA cultural studies, william & mary</p>
+      <p>(upcoming) games for the web, anderson ranch arts center</p>
+    </div>
+
+    <div id="interests">
+      <h3>interests</h3>
+      <p>film, guitar, exploring the hudson valley</p>
+    </div>
+</section>
+
+
+    </main>
+    <footer>
+      <p>email</p>
+    </footer>
 </body>
 </html>
